@@ -1,0 +1,634 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1302EDA61F84A2F600625AB9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1302EDA51F84A2F600625AB9 /* GoogleService-Info.plist */; };
+		134E23761F7C17BA00E6AEC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 134E23691F7C17BA00E6AEC1 /* Assets.xcassets */; };
+		134E23771F7C17BA00E6AEC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 134E236A1F7C17BA00E6AEC1 /* LaunchScreen.storyboard */; };
+		134E23781F7C17BA00E6AEC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 134E236C1F7C17BA00E6AEC1 /* Main.storyboard */; };
+		134E23791F7C17BA00E6AEC1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 134E23701F7C17BA00E6AEC1 /* AppDelegate.m */; };
+		134E237B1F7C17BA00E6AEC1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 134E23721F7C17BA00E6AEC1 /* main.m */; };
+		134E237F1F7C21CB00E6AEC1 /* BaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 134E237E1F7C21CB00E6AEC1 /* BaseVC.m */; };
+		134E23831F7C21EF00E6AEC1 /* HomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 134E23821F7C21EF00E6AEC1 /* HomeVC.m */; };
+		134E23861F7C29B400E6AEC1 /* Slider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134E23851F7C29B400E6AEC1 /* Slider.swift */; };
+		1355DDD01F8005A4002BFD3C /* GraphVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1355DDCF1F8005A4002BFD3C /* GraphVC.m */; };
+		1355DDD51F8022E4002BFD3C /* AddDataVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1355DDD41F8022E4002BFD3C /* AddDataVC.m */; };
+		1355DDD81F802302002BFD3C /* UserRegisterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1355DDD71F802302002BFD3C /* UserRegisterVC.m */; };
+		1355DDDC1F80248E002BFD3C /* ForgotPasswordVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1355DDDB1F80248E002BFD3C /* ForgotPasswordVC.m */; };
+		1879D5271F86136E0089BD6A /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1879D5261F86136E0089BD6A /* libsqlite3.tbd */; };
+		1879D5881F864E8C0089BD6A /* CoffeeDataCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1879D5871F864E8C0089BD6A /* CoffeeDataCell.m */; };
+		6603A2F32F51464E8CC2EAFE /* libPods-Refract Coffee.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E78FC2DDB26619E3E5809435 /* libPods-Refract Coffee.a */; };
+		7D93281C210790C800DBF9D7 /* CFEView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D932815210790C800DBF9D7 /* CFEView.m */; };
+		7D93281D210790C800DBF9D7 /* CFEView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D932816210790C800DBF9D7 /* CFEView.xib */; };
+		7D93281E210790C800DBF9D7 /* ESPView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D932818210790C800DBF9D7 /* ESPView.m */; };
+		7D93281F210790C800DBF9D7 /* ESPView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D932819210790C800DBF9D7 /* ESPView.xib */; };
+		7D932820210790C800DBF9D7 /* iCoffee.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D93281B210790C800DBF9D7 /* iCoffee.m */; };
+		7DD44F8C20FE2C11004A6B6B /* UserEditVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DD44F8B20FE2C11004A6B6B /* UserEditVC.m */; };
+		7DD44F9820FE816D004A6B6B /* Rubik-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7DD44F8E20FE816D004A6B6B /* Rubik-Black.ttf */; };
+		7DD44F9920FE816D004A6B6B /* Rubik-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7DD44F8F20FE816D004A6B6B /* Rubik-BlackItalic.ttf */; };
+		7DD44F9A20FE816D004A6B6B /* Rubik-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7DD44F9020FE816D004A6B6B /* Rubik-Bold.ttf */; };
+		7DD44F9B20FE816D004A6B6B /* Rubik-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7DD44F9120FE816D004A6B6B /* Rubik-BoldItalic.ttf */; };
+		7DD44F9C20FE816D004A6B6B /* Rubik-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7DD44F9220FE816D004A6B6B /* Rubik-Italic.ttf */; };
+		7DD44F9D20FE816D004A6B6B /* Rubik-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7DD44F9320FE816D004A6B6B /* Rubik-Light.ttf */; };
+		7DD44F9E20FE816D004A6B6B /* Rubik-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7DD44F9420FE816D004A6B6B /* Rubik-LightItalic.ttf */; };
+		7DD44F9F20FE816D004A6B6B /* Rubik-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7DD44F9520FE816D004A6B6B /* Rubik-Medium.ttf */; };
+		7DD44FA020FE816D004A6B6B /* Rubik-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7DD44F9620FE816D004A6B6B /* Rubik-MediumItalic.ttf */; };
+		7DD44FA120FE816D004A6B6B /* Rubik-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7DD44F9720FE816D004A6B6B /* Rubik-Regular.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1302EDA51F84A2F600625AB9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		134E234E1F7C169300E6AEC1 /* Refract Coffee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Refract Coffee.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		134E23691F7C17BA00E6AEC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		134E236B1F7C17BA00E6AEC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		134E236D1F7C17BA00E6AEC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		134E236F1F7C17BA00E6AEC1 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		134E23701F7C17BA00E6AEC1 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		134E23711F7C17BA00E6AEC1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		134E23721F7C17BA00E6AEC1 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		134E237D1F7C21CB00E6AEC1 /* BaseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseVC.h; sourceTree = "<group>"; };
+		134E237E1F7C21CB00E6AEC1 /* BaseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseVC.m; sourceTree = "<group>"; };
+		134E23811F7C21EF00E6AEC1 /* HomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeVC.h; path = Home/HomeVC.h; sourceTree = "<group>"; };
+		134E23821F7C21EF00E6AEC1 /* HomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeVC.m; path = Home/HomeVC.m; sourceTree = "<group>"; };
+		134E23841F7C29B300E6AEC1 /* Refract Coffee-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Refract Coffee-Bridging-Header.h"; sourceTree = "<group>"; };
+		134E23851F7C29B400E6AEC1 /* Slider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Slider.swift; sourceTree = "<group>"; };
+		1355DDCE1F8005A4002BFD3C /* GraphVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GraphVC.h; path = Graph/GraphVC.h; sourceTree = "<group>"; };
+		1355DDCF1F8005A4002BFD3C /* GraphVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GraphVC.m; path = Graph/GraphVC.m; sourceTree = "<group>"; };
+		1355DDD31F8022E4002BFD3C /* AddDataVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddDataVC.h; path = "Add New/AddDataVC.h"; sourceTree = "<group>"; };
+		1355DDD41F8022E4002BFD3C /* AddDataVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddDataVC.m; path = "Add New/AddDataVC.m"; sourceTree = "<group>"; };
+		1355DDD61F802302002BFD3C /* UserRegisterVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserRegisterVC.h; path = "User Register/UserRegisterVC.h"; sourceTree = "<group>"; };
+		1355DDD71F802302002BFD3C /* UserRegisterVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserRegisterVC.m; path = "User Register/UserRegisterVC.m"; sourceTree = "<group>"; };
+		1355DDDA1F80248E002BFD3C /* ForgotPasswordVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ForgotPasswordVC.h; path = "User Register/ForgotPassword/ForgotPasswordVC.h"; sourceTree = "<group>"; };
+		1355DDDB1F80248E002BFD3C /* ForgotPasswordVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ForgotPasswordVC.m; path = "User Register/ForgotPassword/ForgotPasswordVC.m"; sourceTree = "<group>"; };
+		1879D5261F86136E0089BD6A /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		1879D5861F864E8C0089BD6A /* CoffeeDataCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoffeeDataCell.h; path = "Custom Cells/CoffeeDataCell.h"; sourceTree = "<group>"; };
+		1879D5871F864E8C0089BD6A /* CoffeeDataCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CoffeeDataCell.m; path = "Custom Cells/CoffeeDataCell.m"; sourceTree = "<group>"; };
+		18AF1D2F1F84C37C00795879 /* Refract Coffee-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Refract Coffee-Prefix.pch"; sourceTree = "<group>"; };
+		18AF1D301F84DADD00795879 /* RefractMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RefractMacros.h; sourceTree = "<group>"; };
+		285DCC54D56BC2C60A92880B /* Pods-Refract Coffee.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Refract Coffee.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Refract Coffee/Pods-Refract Coffee.debug.xcconfig"; sourceTree = "<group>"; };
+		5F7EC157D0F3D914AC74DD19 /* Pods-Refract Coffee.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Refract Coffee.release.xcconfig"; path = "Pods/Target Support Files/Pods-Refract Coffee/Pods-Refract Coffee.release.xcconfig"; sourceTree = "<group>"; };
+		7D932814210790C800DBF9D7 /* CFEView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFEView.h; sourceTree = "<group>"; };
+		7D932815210790C800DBF9D7 /* CFEView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFEView.m; sourceTree = "<group>"; };
+		7D932816210790C800DBF9D7 /* CFEView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CFEView.xib; sourceTree = "<group>"; };
+		7D932817210790C800DBF9D7 /* ESPView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPView.h; sourceTree = "<group>"; };
+		7D932818210790C800DBF9D7 /* ESPView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPView.m; sourceTree = "<group>"; };
+		7D932819210790C800DBF9D7 /* ESPView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ESPView.xib; sourceTree = "<group>"; };
+		7D93281A210790C800DBF9D7 /* iCoffee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCoffee.h; sourceTree = "<group>"; };
+		7D93281B210790C800DBF9D7 /* iCoffee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCoffee.m; sourceTree = "<group>"; };
+		7DD44F8A20FE2C11004A6B6B /* UserEditVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserEditVC.h; sourceTree = "<group>"; };
+		7DD44F8B20FE2C11004A6B6B /* UserEditVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserEditVC.m; sourceTree = "<group>"; };
+		7DD44F8E20FE816D004A6B6B /* Rubik-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Black.ttf"; sourceTree = "<group>"; };
+		7DD44F8F20FE816D004A6B6B /* Rubik-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-BlackItalic.ttf"; sourceTree = "<group>"; };
+		7DD44F9020FE816D004A6B6B /* Rubik-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Bold.ttf"; sourceTree = "<group>"; };
+		7DD44F9120FE816D004A6B6B /* Rubik-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-BoldItalic.ttf"; sourceTree = "<group>"; };
+		7DD44F9220FE816D004A6B6B /* Rubik-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Italic.ttf"; sourceTree = "<group>"; };
+		7DD44F9320FE816D004A6B6B /* Rubik-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Light.ttf"; sourceTree = "<group>"; };
+		7DD44F9420FE816D004A6B6B /* Rubik-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-LightItalic.ttf"; sourceTree = "<group>"; };
+		7DD44F9520FE816D004A6B6B /* Rubik-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Medium.ttf"; sourceTree = "<group>"; };
+		7DD44F9620FE816D004A6B6B /* Rubik-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-MediumItalic.ttf"; sourceTree = "<group>"; };
+		7DD44F9720FE816D004A6B6B /* Rubik-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Regular.ttf"; sourceTree = "<group>"; };
+		E78FC2DDB26619E3E5809435 /* libPods-Refract Coffee.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Refract Coffee.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		134E234B1F7C169300E6AEC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1879D5271F86136E0089BD6A /* libsqlite3.tbd in Frameworks */,
+				6603A2F32F51464E8CC2EAFE /* libPods-Refract Coffee.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		111CA2B3C2BED405734BD37C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				285DCC54D56BC2C60A92880B /* Pods-Refract Coffee.debug.xcconfig */,
+				5F7EC157D0F3D914AC74DD19 /* Pods-Refract Coffee.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		134E23451F7C169300E6AEC1 = {
+			isa = PBXGroup;
+			children = (
+				134E23501F7C169300E6AEC1 /* Refract Coffee */,
+				134E234F1F7C169300E6AEC1 /* Products */,
+				111CA2B3C2BED405734BD37C /* Pods */,
+				4A5DDD70480D646FD75BC3DA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		134E234F1F7C169300E6AEC1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				134E234E1F7C169300E6AEC1 /* Refract Coffee.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		134E23501F7C169300E6AEC1 /* Refract Coffee */ = {
+			isa = PBXGroup;
+			children = (
+				7D932813210790C800DBF9D7 /* CustomAnimView */,
+				1879D5851F864E690089BD6A /* CustomCells */,
+				134E23681F7C17BA00E6AEC1 /* Storyboard */,
+				134E23731F7C17BA00E6AEC1 /* View Controllers */,
+				134E236E1F7C17BA00E6AEC1 /* Supporting Files */,
+			);
+			path = "Refract Coffee";
+			sourceTree = "<group>";
+		};
+		134E23681F7C17BA00E6AEC1 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				134E23691F7C17BA00E6AEC1 /* Assets.xcassets */,
+				134E236A1F7C17BA00E6AEC1 /* LaunchScreen.storyboard */,
+				134E236C1F7C17BA00E6AEC1 /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		134E236E1F7C17BA00E6AEC1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7DD44F8D20FE816D004A6B6B /* fonts */,
+				134E23851F7C29B400E6AEC1 /* Slider.swift */,
+				134E236F1F7C17BA00E6AEC1 /* AppDelegate.h */,
+				134E23701F7C17BA00E6AEC1 /* AppDelegate.m */,
+				1302EDA51F84A2F600625AB9 /* GoogleService-Info.plist */,
+				134E23711F7C17BA00E6AEC1 /* Info.plist */,
+				134E23721F7C17BA00E6AEC1 /* main.m */,
+				134E23841F7C29B300E6AEC1 /* Refract Coffee-Bridging-Header.h */,
+				18AF1D2F1F84C37C00795879 /* Refract Coffee-Prefix.pch */,
+				18AF1D301F84DADD00795879 /* RefractMacros.h */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		134E23731F7C17BA00E6AEC1 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7DD44F8920FE2C11004A6B6B /* User Edit */,
+				1355DDD11F8022B7002BFD3C /* User Register */,
+				134E23801F7C21D400E6AEC1 /* Home */,
+				1355DDCD1F800586002BFD3C /* Graph */,
+				1355DDD21F8022C1002BFD3C /* Add New */,
+				134E237D1F7C21CB00E6AEC1 /* BaseVC.h */,
+				134E237E1F7C21CB00E6AEC1 /* BaseVC.m */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		134E23801F7C21D400E6AEC1 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				134E23811F7C21EF00E6AEC1 /* HomeVC.h */,
+				134E23821F7C21EF00E6AEC1 /* HomeVC.m */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		1355DDCD1F800586002BFD3C /* Graph */ = {
+			isa = PBXGroup;
+			children = (
+				1355DDCE1F8005A4002BFD3C /* GraphVC.h */,
+				1355DDCF1F8005A4002BFD3C /* GraphVC.m */,
+			);
+			name = Graph;
+			sourceTree = "<group>";
+		};
+		1355DDD11F8022B7002BFD3C /* User Register */ = {
+			isa = PBXGroup;
+			children = (
+				1355DDD61F802302002BFD3C /* UserRegisterVC.h */,
+				1355DDD71F802302002BFD3C /* UserRegisterVC.m */,
+				1355DDD91F802472002BFD3C /* ForgotPassword */,
+			);
+			name = "User Register";
+			sourceTree = "<group>";
+		};
+		1355DDD21F8022C1002BFD3C /* Add New */ = {
+			isa = PBXGroup;
+			children = (
+				1355DDD31F8022E4002BFD3C /* AddDataVC.h */,
+				1355DDD41F8022E4002BFD3C /* AddDataVC.m */,
+			);
+			name = "Add New";
+			sourceTree = "<group>";
+		};
+		1355DDD91F802472002BFD3C /* ForgotPassword */ = {
+			isa = PBXGroup;
+			children = (
+				1355DDDA1F80248E002BFD3C /* ForgotPasswordVC.h */,
+				1355DDDB1F80248E002BFD3C /* ForgotPasswordVC.m */,
+			);
+			name = ForgotPassword;
+			sourceTree = "<group>";
+		};
+		1879D5851F864E690089BD6A /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				1879D5861F864E8C0089BD6A /* CoffeeDataCell.h */,
+				1879D5871F864E8C0089BD6A /* CoffeeDataCell.m */,
+			);
+			name = CustomCells;
+			sourceTree = "<group>";
+		};
+		4A5DDD70480D646FD75BC3DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1879D5261F86136E0089BD6A /* libsqlite3.tbd */,
+				E78FC2DDB26619E3E5809435 /* libPods-Refract Coffee.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7D932813210790C800DBF9D7 /* CustomAnimView */ = {
+			isa = PBXGroup;
+			children = (
+				7D932814210790C800DBF9D7 /* CFEView.h */,
+				7D932815210790C800DBF9D7 /* CFEView.m */,
+				7D932816210790C800DBF9D7 /* CFEView.xib */,
+				7D932817210790C800DBF9D7 /* ESPView.h */,
+				7D932818210790C800DBF9D7 /* ESPView.m */,
+				7D932819210790C800DBF9D7 /* ESPView.xib */,
+				7D93281A210790C800DBF9D7 /* iCoffee.h */,
+				7D93281B210790C800DBF9D7 /* iCoffee.m */,
+			);
+			path = CustomAnimView;
+			sourceTree = "<group>";
+		};
+		7DD44F8920FE2C11004A6B6B /* User Edit */ = {
+			isa = PBXGroup;
+			children = (
+				7DD44F8A20FE2C11004A6B6B /* UserEditVC.h */,
+				7DD44F8B20FE2C11004A6B6B /* UserEditVC.m */,
+			);
+			path = "User Edit";
+			sourceTree = "<group>";
+		};
+		7DD44F8D20FE816D004A6B6B /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				7DD44F8E20FE816D004A6B6B /* Rubik-Black.ttf */,
+				7DD44F8F20FE816D004A6B6B /* Rubik-BlackItalic.ttf */,
+				7DD44F9020FE816D004A6B6B /* Rubik-Bold.ttf */,
+				7DD44F9120FE816D004A6B6B /* Rubik-BoldItalic.ttf */,
+				7DD44F9220FE816D004A6B6B /* Rubik-Italic.ttf */,
+				7DD44F9320FE816D004A6B6B /* Rubik-Light.ttf */,
+				7DD44F9420FE816D004A6B6B /* Rubik-LightItalic.ttf */,
+				7DD44F9520FE816D004A6B6B /* Rubik-Medium.ttf */,
+				7DD44F9620FE816D004A6B6B /* Rubik-MediumItalic.ttf */,
+				7DD44F9720FE816D004A6B6B /* Rubik-Regular.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		134E234D1F7C169300E6AEC1 /* Refract Coffee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 134E23651F7C169300E6AEC1 /* Build configuration list for PBXNativeTarget "Refract Coffee" */;
+			buildPhases = (
+				3B60AF4364CCF55096DA3EFA /* [CP] Check Pods Manifest.lock */,
+				134E234A1F7C169300E6AEC1 /* Sources */,
+				134E234B1F7C169300E6AEC1 /* Frameworks */,
+				134E234C1F7C169300E6AEC1 /* Resources */,
+				461D4EF084E95EAE6ABD6DBF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Refract Coffee";
+			productName = "Refract Coffee";
+			productReference = 134E234E1F7C169300E6AEC1 /* Refract Coffee.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		134E23461F7C169300E6AEC1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Manvik;
+				TargetAttributes = {
+					134E234D1F7C169300E6AEC1 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 7VH8HCB3ZN;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 134E23491F7C169300E6AEC1 /* Build configuration list for PBXProject "Refract Coffee" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 134E23451F7C169300E6AEC1;
+			productRefGroup = 134E234F1F7C169300E6AEC1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				134E234D1F7C169300E6AEC1 /* Refract Coffee */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		134E234C1F7C169300E6AEC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				134E23781F7C17BA00E6AEC1 /* Main.storyboard in Resources */,
+				7DD44FA120FE816D004A6B6B /* Rubik-Regular.ttf in Resources */,
+				7DD44F9B20FE816D004A6B6B /* Rubik-BoldItalic.ttf in Resources */,
+				1302EDA61F84A2F600625AB9 /* GoogleService-Info.plist in Resources */,
+				7DD44F9F20FE816D004A6B6B /* Rubik-Medium.ttf in Resources */,
+				7DD44F9E20FE816D004A6B6B /* Rubik-LightItalic.ttf in Resources */,
+				7DD44F9920FE816D004A6B6B /* Rubik-BlackItalic.ttf in Resources */,
+				134E23761F7C17BA00E6AEC1 /* Assets.xcassets in Resources */,
+				7DD44F9C20FE816D004A6B6B /* Rubik-Italic.ttf in Resources */,
+				7D93281D210790C800DBF9D7 /* CFEView.xib in Resources */,
+				7DD44F9A20FE816D004A6B6B /* Rubik-Bold.ttf in Resources */,
+				7DD44FA020FE816D004A6B6B /* Rubik-MediumItalic.ttf in Resources */,
+				7DD44F9D20FE816D004A6B6B /* Rubik-Light.ttf in Resources */,
+				7DD44F9820FE816D004A6B6B /* Rubik-Black.ttf in Resources */,
+				134E23771F7C17BA00E6AEC1 /* LaunchScreen.storyboard in Resources */,
+				7D93281F210790C800DBF9D7 /* ESPView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3B60AF4364CCF55096DA3EFA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Refract Coffee-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		461D4EF084E95EAE6ABD6DBF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Refract Coffee/Pods-Refract Coffee-resources.sh",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Refract Coffee/Pods-Refract Coffee-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		134E234A1F7C169300E6AEC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1355DDD81F802302002BFD3C /* UserRegisterVC.m in Sources */,
+				1355DDD51F8022E4002BFD3C /* AddDataVC.m in Sources */,
+				134E23791F7C17BA00E6AEC1 /* AppDelegate.m in Sources */,
+				1355DDD01F8005A4002BFD3C /* GraphVC.m in Sources */,
+				1355DDDC1F80248E002BFD3C /* ForgotPasswordVC.m in Sources */,
+				7D93281C210790C800DBF9D7 /* CFEView.m in Sources */,
+				7DD44F8C20FE2C11004A6B6B /* UserEditVC.m in Sources */,
+				134E23831F7C21EF00E6AEC1 /* HomeVC.m in Sources */,
+				1879D5881F864E8C0089BD6A /* CoffeeDataCell.m in Sources */,
+				7D932820210790C800DBF9D7 /* iCoffee.m in Sources */,
+				134E237B1F7C17BA00E6AEC1 /* main.m in Sources */,
+				134E23861F7C29B400E6AEC1 /* Slider.swift in Sources */,
+				7D93281E210790C800DBF9D7 /* ESPView.m in Sources */,
+				134E237F1F7C21CB00E6AEC1 /* BaseVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		134E236A1F7C17BA00E6AEC1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				134E236B1F7C17BA00E6AEC1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		134E236C1F7C17BA00E6AEC1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				134E236D1F7C17BA00E6AEC1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		134E23631F7C169300E6AEC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		134E23641F7C169300E6AEC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		134E23661F7C169300E6AEC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 285DCC54D56BC2C60A92880B /* Pods-Refract Coffee.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 7VH8HCB3ZN;
+				GCC_PREFIX_HEADER = "./Refract Coffee/Supporting Files/Refract Coffee-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/Refract Coffee/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.firescreen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "e733334e-cd10-47df-9988-6a6ee703b2e4";
+				PROVISIONING_PROFILE_SPECIFIER = Firescreen;
+				SWIFT_OBJC_BRIDGING_HEADER = "Refract Coffee/Supporting Files/Refract Coffee-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		134E23671F7C169300E6AEC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F7EC157D0F3D914AC74DD19 /* Pods-Refract Coffee.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 7VH8HCB3ZN;
+				GCC_PREFIX_HEADER = "./Refract Coffee/Supporting Files/Refract Coffee-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/Refract Coffee/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.firescreen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "e733334e-cd10-47df-9988-6a6ee703b2e4";
+				PROVISIONING_PROFILE_SPECIFIER = Firescreen;
+				SWIFT_OBJC_BRIDGING_HEADER = "Refract Coffee/Supporting Files/Refract Coffee-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		134E23491F7C169300E6AEC1 /* Build configuration list for PBXProject "Refract Coffee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				134E23631F7C169300E6AEC1 /* Debug */,
+				134E23641F7C169300E6AEC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		134E23651F7C169300E6AEC1 /* Build configuration list for PBXNativeTarget "Refract Coffee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				134E23661F7C169300E6AEC1 /* Debug */,
+				134E23671F7C169300E6AEC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 134E23461F7C169300E6AEC1 /* Project object */;
+}
